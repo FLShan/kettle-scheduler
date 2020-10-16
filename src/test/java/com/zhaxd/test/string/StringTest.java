@@ -14,7 +14,7 @@ import com.zhaxd.web.utils.DateTime;
 
 public class StringTest {
 
-	@Test
+//	@Test
 	public void test1(){
 		String aaa = "/mysql-mysql";
 		int lastIndexOf = StringUtils.lastIndexOf(aaa, "/");
@@ -23,7 +23,7 @@ public class StringTest {
 	}
 	
 	
-	@Test
+//	@Test
 	public void GenerateString(){		
 		System.out.println(new Date().getTime());
 		StringBuilder stringBuilder = new StringBuilder();
@@ -40,10 +40,10 @@ public class StringTest {
 		System.out.println(new Date().getTime());
 	}
 	
-	@Test
+//	@Test
 	public void testBR() throws IOException{
-		String readFileToString = FileUtils.readFileToString(new File("F:\\tmp\\kettle-master\\1\\trans@kettle-test-6.2-log\\1496459302270.txt"), Constant.DEFAULT_ENCODING);
-		System.out.println(readFileToString);
+//		String readFileToString = FileUtils.readFileToString(new File("F:\\tmp\\kettle-master\\1\\trans@kettle-test-6.2-log\\1496459302270.txt"), Constant.DEFAULT_ENCODING);
+//		System.out.println(readFileToString);
 		
 	}
 	

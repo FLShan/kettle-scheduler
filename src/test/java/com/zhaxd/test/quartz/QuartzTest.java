@@ -10,7 +10,7 @@ import com.zhaxd.web.quartz.TransQuartz;
 
 public class QuartzTest {
 
-	@Test
+//	@Test
 	public void AddJobTest(){
 		
 		
